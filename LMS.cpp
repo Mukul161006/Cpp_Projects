@@ -1,4 +1,9 @@
 #include <iostream>
-using namespace std; 
-
 #include <sqlite3.h>
+
+using namespace std;
+
+struct Books{
+
+
+};
