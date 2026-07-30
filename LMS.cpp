@@ -12,6 +12,18 @@ struct Books {
 
 };
 
+void createTables( sqlite3* db) {
+
+    // Ye jo hai koi error aayi toh show kr dega. 
+    char* errorMessage = 0; 
+
+    const char* sqlBooks = "CREATE TABLE IF NOT EXISTS books ("
+                           "book_id INTEGER PRIMARY KEY, "
+                           "name TEXT NOT NULL, "
+                           "author TEXT NOT NULL);";
+
+}
+
 int main (){
 
     sqlite3* db; 
