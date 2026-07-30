@@ -130,7 +130,6 @@ int main (){
     getline(cin >> ws, userStud.course);
     addStudent(db, userStud);
 
-
     sqlite3_close(db);
 
     return 0; 
