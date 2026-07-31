@@ -38,7 +38,7 @@ int createTables( sqlite3* db) {
         cout << "SOME ISSUE HAPPENED BHAISABH " << errorMessage << endl; 
         return 1; 
     } else {
-        cout << "SUCK....SEX..FULLY CREATED THE TABLE books --------------- " << endl;
+        cout << "SUCCESSFULLY CREATED THE TABLE books --------------- " << endl;
     }
 
     //=================== NOW FOR THE STUDENTS TABLE ===================// 
@@ -53,7 +53,7 @@ int createTables( sqlite3* db) {
         cout << "SOME ISSUE HAPPENED BHAISABH " << errorMessage << endl; 
         return 1; 
     } else {
-        cout << "SUCK....SEX..FULLY CREATED THE TABLE students --------------- " << endl;
+        cout << "SUCCESSFULLY CREATED THE TABLE students --------------- " << endl;
     }
 }
 
