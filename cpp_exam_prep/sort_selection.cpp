@@ -22,7 +22,6 @@ void selectionSort(int arr[], int n){
 
 }
 
-
 int main(){
 
     int arr[] = {64, 25, 12, 22, 11};
@@ -32,6 +31,6 @@ int main(){
 
     cout << "Selection Sorted Array: ";
     for (int i = 0; i < n; i++) cout << arr[i] << " ";
-    
+
     return 0; 
 }
