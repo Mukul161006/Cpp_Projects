@@ -9,7 +9,7 @@ int main(){
 
     // here we specify the index of the array.
     int low = 0;  
-    int high = sizeof(arr)/sizeof(arr[0]) + 1; // to bring the compiler to the last index value. 
+    int high = sizeof(arr)/sizeof(arr[0]) - 1; // last valid index. 
 
     cout << "Target ?? "; 
     cin >> target;

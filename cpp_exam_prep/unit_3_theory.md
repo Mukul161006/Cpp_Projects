@@ -23,13 +23,13 @@
 - it is a linear data structure that strictly follows the FIFO principle to store and work with the data. 
 - Unlike, Stacks it has 2 end points like control centres to work namely, *front* - to track which element is to be removed and *rear* - to track where the element the is to be added.
 
-    Properties of Stacks :- 
+    Properties of queue :- 
         1. Two Open Ends : Unlike slack it has 2 ends at the *front < for data removal >* and *rear < for data addition >.*
         2. FIFO Control : Simply explain it's insertion and removing process. 
         3. Order Preservation : Perfectly preserves the arrival order of the data. 
 
-    Primitives of Stacks :-
-        < manje basic operations of stacks one can do >
+    Primitives of queue :-
+        < manje basic operations of queue one can do >
 
         1. enqueue() => new element at the rear (back) | limit cross -> Queue overflow error. 
         2. Dequeue() => removes & returns the top element | no data -> Queue underflow error. 
