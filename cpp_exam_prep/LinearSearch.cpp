@@ -15,7 +15,5 @@ int main(){
         }
     }
 
-    cout << "Target not found !!" << endl; 
-
     return 0; 
 }

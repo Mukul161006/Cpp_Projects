@@ -61,7 +61,7 @@ int main(){
 
     Queue serverQueue;
     
-    for(int i = 0; i <= 100; i++){
+    for(int i = 0; i <= 10; i++){
         serverQueue.enqueue(i);
     }
 

@@ -5,40 +5,30 @@ using namespace std;
 // high -> last element
 
 void merge(int arr[], int low, int mid, int high){
-    int temp[1000]; 
-    int i = low, j = mid + 1, k = low; 
 
-    while(i <= mid && j <= high){
-        if(arr[i] < arr[j]){
-            temp[k++] = arr[i++];
-        } else {
-            temp[k++] = arr[j++];
-        }
-    }
+    int n1 = mid - low + 1;
+    int n2 = high - mid; 
 
-    while(i <= mid){
-        temp[k++] = arr[i++];
-    }
-    while(j <= high){
-        temp[k++] = arr[j++];
-    }
+    int a[n1];
+    int b[n2];
 
-    for(i = low; i <= high; i++){
-        arr[i] = temp[i]; // sending the data to the main array not pushing forward so no ++. 
+    for(int i = 0; i < n1; i++){
+        a[i] = arr[low+1]; 
+    }
+    for(int i = 0; i < n2; i++){
+        b[i] = arr[mid + 1 + i];
     }
 }
 
 void slicer(int arr[], int low, int high){
-    int mid = (low + high) / 2;
 
-    if (low >= high){
-        return;
-    } else {
+    if(low < high){
+        int mid = (low + high) / 2;
         slicer(arr, low, mid); 
         slicer(arr, mid+1, high);
-    }
 
-    merge(arr, low, mid, high);
+        merge(arr, low, mid, high);
+    }
 }
 
 

@@ -8,7 +8,7 @@
                                *middle & bottom levels of data.* 
         2. LIFO Control      : Simply explain it's insertion and removing process. 
         3. One Control Center: Top is the pointer through which the whole data 
-                               is mainatined making it less flexible. 
+                               is mainatined making it less flexible.
 
     Primitives of Stacks :-
         < manje basic operations of stacks one can do >
