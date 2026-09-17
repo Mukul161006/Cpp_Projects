@@ -12,8 +12,8 @@
     1. Single Inheritance : One child ~ one parent. Soldier ~ Medic Soldier only. 
     2. Multilevel Inheritance : This one is all about the chain of command. Grandparent -> Parent -> Child. The successor gets what all the above one has got. 
     3. Multiple Inheritance : One Child ~ Two Parents. Soldier + Medical Dept ~ Soldier Doctor
-    -- 4. Hierarchial Inheritance : Multiple Child ~ One parent. Soldier ~ Brigadier | Sniper | Rifleman | Medic
-    -- 5. Hybrid Inheritance : The messy part where it is a combination of more than one type of inheritances (usually Hierarchical + Multiple).
+    4. Hierarchical Inheritance : Multiple Child ~ One parent. Soldier ~ Brigadier | Sniper | Rifleman | Medic
+    5. Hybrid Inheritance : The messy part where it is a combination of more than one type of inheritances (usually Hierarchical + Multiple).
 */
 
 #include <iostream>
@@ -80,4 +80,3 @@ int main(){
 
     return 0; 
 }
-
