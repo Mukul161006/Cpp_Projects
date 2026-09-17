@@ -45,7 +45,7 @@ int main(){
     Regiment bravo(102);
     Regiment beta(103);
 
-    Regiment::displayTotalTroops();
+    Regiment::displayTotalTroops(); // Should be 4 instead of 3 coz we have an DummyR too as deployed regiment troop.
 
     return 0;
 }
